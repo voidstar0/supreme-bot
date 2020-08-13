@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "SupremeBot69",
+  "description": "Cop this box logo hoodie fast as fuck boiiii",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://www.supremenewyork.com/*"],
+      "js": ["scripty.js"]
+    }
+  ],
+  "permissions": [
+    "activeTab"
+  ]
+}
